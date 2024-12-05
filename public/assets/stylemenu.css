@@ -1,5 +1,6 @@
 body{
 	background-color: black;
+	
 }
 
 header {
@@ -27,7 +28,7 @@ details summary {
     border-radius: 5px;
     color: white;
 	text-align:center;
-	font-size: 0.5rem;
+	font-size: 1rem;
 }
 
 

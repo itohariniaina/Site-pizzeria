@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400,700&display=swap');
+
 body{
-	background-image: url("../pizzas.png") ;
+	background-image: url("pizzas.png");
 	color: white;
 	font-family: 'Playfair Display', serif;
 	font-size: 1.5rem;
-	
 }
-body background-image {
-	filter: blur(10px);
+
 	
 }
 header{
