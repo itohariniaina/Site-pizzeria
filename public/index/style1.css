@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400,700&display=swap');
+body{
+	background-image: url("../pizzas.png") ;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	
+}
+body background-image {
+	filter: blur(10px);
+	
+}
+header{
+	text-align:center;
+	font-family: 'Playfair Display', serif;
+}
+button{
+	height: 5rem;
+	width: 100%;
+	font-size: 2rem;
+	font-family: Arial;
+	color: white;
+	background-color: transparent;
+}
+
+button:hover {
+    background-color: green; 
+}
+
+
+#selection {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+
+#selection label {
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
+}
+
+
+#selection > label {
+  flex: 1 1 calc(33.33% - 20px); 
+  box-sizing: border-box; 
+}

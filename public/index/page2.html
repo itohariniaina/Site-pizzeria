@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style1.css">
+    <title>Réservation</title>
+  </head>
+  
+  <body> 
+
+	<header>
+		<h1>  Réservation </h1>
+	</header>
+	
+	<main>
+	
+	<h2> On vous attends avec impatience! </h2>
+	
+	
+	
+	<form action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug" method="post">
+		
+			<h2> Vos coordonnées </h2>
+	
+		
+		<label for="name">Nom:</label>
+			<input type="text" id="name" name="name">
+		<label for="fname">Prénom:</label>
+			<input type="text" id="fname" name="fname">
+		<label for="tel">Téléphone:</label>
+			<input type="text" id="tel" name="tel">
+		
+		
+		
+		<h2> Votre réservation: </h2>
+	
+		
+		<fieldset>
+		<legend>Informations de réservation:</legend>
+			
+			<label for="personne"> Nombre de personne: <input type="text" id="personne" name="personne"> </label>
+			<label for="date"> Date: <input type="date" id="date" name="date"> </label>
+			<label for="heure"> Créneau: <input type="text" id="heure" name="heure"> </label>
+			
+		</fieldset>
+		
+		
+		<h2> Votre avis: </h2>
+	
+		
+		<fieldset>
+			<legend>Recommenderiez-vous notre pizzeria à vos proches?</legend>
+			
+				<label><input type="radio" id="recommendation" name="recommendation" value="oui">Oui</label>
+				<label><input type="radio"  name="recommendation" value="non">Non</label>
+			
+			<label for="note">Votre note :</label>
+			<input type="number" id="note" name="note" min="0" max="5">
+			
+			<label for="commentaire">Un commentaire :</label>
+			<textarea id="commentaire" name="commentaire" cols="50" rows="5"></textarea>
+		</fieldset>
+
+		
+		
+		
+		<button type="submit">Réserver</button>
+		
+	</form>
+	</main>
+	</body>
+</html>
+
+	     		 

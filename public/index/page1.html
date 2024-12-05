@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style1.css">
+    <title>Livraison</title>
+  </head>
+  
+  <body> 
+
+	<header>
+		<h1>  Livraisons ou à emporter? </h1>
+	</header>
+	
+	<main>
+	
+	<h2> Votre envie du moment? </h2>
+	
+	
+
+	
+	
+	
+	<form action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug" method="post">
+		<div id="selection">
+		<label for="pizza_pref">Pizza préférée ?
+			<select name="pizza_pref" id="pizza_pref">
+				<option value="4 fromages">4 fromages</option>
+				<option value="Margarita">Margarita</option>
+				<option value="Fruit_di_mare">Fruit di mare</option>
+				<option value="Peperroni">Peperroni</option>
+			</select>
+			</label>
+		<label for="taille"> Taille ?
+			<select name="taille" id="taille">
+				<option value="S">Petite</option>
+				<option value="M">Moyenne</option>
+				<option value="L">Large</option>
+				<option value="XL">Extra Large</option>
+			</select>
+			</label>
+		<label for="nb"> Combien de pizzas? 
+			<input type="number"  id="nb" name="nb" min="1" max="49" step="1">
+		</label>
+		<label for="sup"> Suppléments ?
+			<select name="sup" id="sup">
+				<option value="aucun">Non merci!</option>
+				<option value="Mozarella">Mozarella</option>
+				<option value="Peperonni">Peperonni</option>
+				<option value="Cheesy_Crust">Cheesy_Crust</option>
+				<option value="Buratta">Burrata</option>
+			</select>
+			</label>
+		<label for="entrees">Une entrée ? 
+			<select name="entrees" id="entrees">
+				<option value="salade_cesar">Salade César</option>
+				<option value="soupe_legume">Soupe de légumes</option>
+				<option value="bruschetta">Bruschetta</option>
+			</select>
+			</label>
+		<label for="desserts">Et un petit dessert ?
+			<select name="desserts" id="desserts">
+				<option value="tiramisu">Tiramisu</option>
+				<option value="cheesecake">Cheesecake</option>
+				<option value="mousse_choco">Mousse au chocolat</option>
+			</select>
+			</label>
+		<label for="boissons"> Un rafraîchissement ?
+			<select name="boissons" id="boissons">
+				<option value="cola">Cola</option>
+				<option value="jus_orange">Jus d'orange</option>
+				<option value="limonade">Limonade</option>
+				<option value="eau_pet">Eau pétillante</option>
+				<option value="eau">Eau</option>
+				<option value="the_glace">Thé glacé</option>
+			</select>
+			</label>
+		</div>
+		<h2> Vos coordonnées </h2>
+	
+		
+		<label for="name">Nom:</label>
+			<input type="text" id="name" name="name">
+		<label for="fname">Prénom:</label>
+			<input type="text" id="fname" name="fname">
+		<label for="tel">Téléphone:</label>
+			<input type="text" id="tel" name="tel">
+		
+		
+		
+		<h2> Votre commande: </h2>
+		<fieldset class="typec">  
+		<legend>Si vous souhaitez être livrés:</legend>
+		
+		
+		<fieldset>
+		<legend>Informations de livraisons:</legend>
+			<label for="adr"> Adresse: <input type="text" id="adr" name="adr"></label>
+			<label for="eta"> Etage: <input type="text" id="eta" name="etage"></label>
+			<label for="ind"> Indications: <textarea  id="ind" name="indic" cols="50" rows="5"></textarea></label>
+		</fieldset>
+		</fieldset>
+		
+		<fieldset class="typec"> 
+		<legend>Sinon:</legend>
+		<label for="date"> Date: <input type="date" id="date" name="date"> </label>
+		<label for="heure"> Créneau: <input type="text" id="heure" name="heure"> </label>
+		</fieldset>
+		
+		<h2> Votre avis: </h2>
+	
+		
+		<fieldset>
+			<legend>Recommenderiez-vous notre pizzeria à vos proches?</legend>
+			
+				<label><input type="radio" id="recommendation" name="recommendation" value="oui">Oui</label>
+				<label><input type="radio"  name="recommendation" value="non">Non</label>
+			
+			<label for="note">Votre note :</label>
+			<input type="number" id="note" name="note" min="0" max="5">
+			
+			<label for="commentaire">Un commentaire :</label>
+			<textarea id="commentaire" name="commentaire" cols="50" rows="5"></textarea>
+		</fieldset>
+
+		
+		
+		
+		<button type="submit">Commander</button>
+		
+	</form>
+	</main>
+	</body>
+</html>
+
+	     		 
