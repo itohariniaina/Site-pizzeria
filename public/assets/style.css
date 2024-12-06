@@ -111,7 +111,7 @@ h1 {
 main{
 	background-color: black;
 	color: white;
-	
+	font-size: 15px;
 }
 
 #pizzas_accueil .content, #resto_accueil .content {
