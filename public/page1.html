@@ -91,23 +91,27 @@
 		
 		<h2> Votre commande: </h2>
 		<fieldset class="typec">  
-		<legend>Si vous souhaitez être livrés:</legend>
+		<legend>Souhaitez vous être livrés?
+		
+				<label><input type="radio"  name="livr" value="oui">Oui</label>
+				<label><input type="radio"  name="livr" value="non">Non</label>
+		</legend>
 		
 		
 		<fieldset>
-		<legend>Informations de livraisons:</legend>
+		<legend>Si oui:</legend>
 			<label for="adr"> Adresse: <input type="text" id="adr" name="adr"></label>
 			<label for="eta"> Etage: <input type="text" id="eta" name="etage"></label>
 			<label for="ind"> Indications: <textarea  id="ind" name="indic" cols="50" rows="5"></textarea></label>
 		</fieldset>
-		</fieldset>
+		
 		
 		<fieldset class="typec"> 
 		<legend>Sinon:</legend>
 		<label for="date"> Date: <input type="date" id="date" name="date"> </label>
 		<label for="heure"> Créneau: <input type="text" id="heure" name="heure"> </label>
+			</fieldset>
 		</fieldset>
-		
 		<h2> Votre avis: </h2>
 	
 		
