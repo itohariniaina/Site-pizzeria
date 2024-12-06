@@ -121,6 +121,7 @@ main{
     justify-content: space-between; 
     margin: 10px 0;
     gap: 10px;
+	font-size: 15px;
 }
 
 
@@ -219,11 +220,3 @@ footer {
     font-weight: bold; 
 }
 
-#pizzas_accueil{
-	font-size: auto;
-	
-}
-#resto_accueil_accueil{
-	font-size: auto;
-	
-}
