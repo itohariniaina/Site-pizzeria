@@ -111,8 +111,13 @@ h1 {
 main{
 	background-color: black;
 	color: white;
-	font-size: 15px;
+	
 }
+
+main p {
+    font-size: 18em;
+}
+
 
 #pizzas_accueil .content, #resto_accueil .content {
     display: flex;
@@ -121,7 +126,7 @@ main{
     justify-content: space-between; 
     margin: 10px 0;
     gap: 10px;
-	font-size: 15px;
+	
 }
 
 
