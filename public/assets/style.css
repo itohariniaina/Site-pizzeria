@@ -114,9 +114,6 @@ main{
 	
 }
 
-main p {
-    font-size: 18em;
-}
 
 
 #pizzas_accueil .content, #resto_accueil .content {
@@ -149,12 +146,12 @@ main p {
 }
 
 .content .text p {
-    font-size: 13px;
+    font-size: 1.5em;
     line-height: 1;
     text-align: center;
 }
 .content .text p em {
-    font-size: 16px;
+    font-size: 1.6em;
     line-height: 1;
     text-align: center;
 }
