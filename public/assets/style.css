@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+	
 }
 
 header {
@@ -111,7 +112,7 @@ h1 {
 main{
 	background-color: black;
 	color: white;
-	
+	font-size: 20px;
 }
 
 #pizzas_accueil .content, #resto_accueil .content {
