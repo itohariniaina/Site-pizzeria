@@ -23,7 +23,7 @@
 	
 	
 	<form action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug" method="post">
-		<div class="selection">
+		<div id="cmd">
 		<label for="pizza_pref">Pizza préférée ?
 			<select name="pizza_pref" id="pizza_pref">
 				<option value="4 fromages">4 fromages</option>
@@ -79,13 +79,13 @@
 		</div>
 		<h2> Vos coordonnées </h2>
 	
-		<div class="selection">
+		<div id="coord">
 		<label for="name">Nom:</label>
-			<input type="text" id="name" name="name">
+			<input type="text" class="contact" name="name">
 		<label for="fname">Prénom:</label>
-			<input type="text" id="fname" name="fname">
+			<input type="text" class="contact" name="fname">
 		<label for="tel">Téléphone:</label>
-			<input type="text" id="tel" name="tel">
+			<input type="text" class="contact" name="tel">
 		</div>
 		
 		

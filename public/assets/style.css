@@ -16,7 +16,7 @@ header {
     height: 8rem; 
 	width:100%;
     position: fixed; 
-    overflow: visible; 
+    
 }
 
 
@@ -57,7 +57,7 @@ details ul {
     margin: 0;
     list-style: none; 
     display: none; 
-    z-index: 10; 
+   
 }
 
 
@@ -116,12 +116,12 @@ h1 {
 main{
 	background-color: black;
 	color: white;
-	font-size: 20px;
+	
 }
 
 
 
-#pizzas_accueil .content, #resto_accueil .content {
+#pizzas_accueil .contenu, #resto_accueil .contenu {
     display: flex;
     flex-direction: row; 
     align-items: center; 
@@ -132,30 +132,30 @@ main{
 }
 
 
-.content figure {
+.contenu figure {
     flex: 2;
     max-width: 50%;
 }
 
-.content img {
+.contenu img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
 
-.content .text {
+.contenu .text {
     flex: 2;
     padding: 10px;
 	
 }
 
-.content .text p {
+.contenu .text p {
     font-size: 1.2em;
     line-height: 1;
     text-align: center;
 }
-.content .text p em {
+.contenu .text p em {
     font-size: 1.4em;
     line-height: 1;
     text-align: center;
@@ -227,3 +227,28 @@ footer {
     font-weight: bold; 
 }
 
+@media (max-width: 480px), (min-width: 481px) and (max-width: 1024px)
+{
+	header {
+		display:flex;
+		flex-direction : row;
+		justify-content: space-around;
+		}
+	figure#logo1{
+		display:none;
+	}
+	.contenu .text p{
+		font-size: 0.5em;
+	}
+	.contenu .text p em {
+    font-size: 0.8em;
+    }
+	#entete{
+	font-size: 0.75em;
+	margin-top:9rem;
+	}	
+	h1 {   
+	font-size: 1.5rem;
+    }
+	
+}
