@@ -62,14 +62,16 @@ main label {
 	button:hover {
     background-color: #A8D5BA; 
 	}	
-	input{
-		width: 25%;
-	}
-	input.contact,textarea{
+	
+	input.contact,textarea,input.selection{
 		width: 90%;
 	}
 	legend,fieldset{
 		display: grid;
 		grid-template-columns: 1fr ;
+	}
+	div.selection{
+		display: grid;
+		grid-template-columns: 1fr;
 	}
 }
